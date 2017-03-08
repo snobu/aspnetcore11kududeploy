@@ -10,12 +10,6 @@ using Microsoft.Extensions.Configuration;
 
 namespace aspnetcorekeyvault.Controllers
 {
-    public class MyConfig
-    {
-        public string AppName { get; set; }
-        public string BigSecret { get; set; }
-    }
-    
      public class HomeController : Controller
     {
         readonly IConfiguration _config;
