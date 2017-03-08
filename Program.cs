@@ -17,6 +17,7 @@ namespace aspnetcorekeyvault
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
+                // App Service Logging
                 .UseAzureAppServices()
                 .Build();
 
